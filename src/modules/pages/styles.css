@@ -254,6 +254,10 @@
     display: none;
 }
 
+.main_page_mobile {
+    display: none;
+}
+
 @media (max-width: 768px) {
     .bg {
         display: none;
@@ -302,5 +306,17 @@
     }
     .faq {
         padding-bottom: 24px;
+    }
+    .page_title {
+        font-size: 34px;
+        line-height: 40px;
+        padding: 32px 74px 24px 16px;
+    }
+
+    .page_content {
+        font-size: 16px;
+        line-height: 26px;
+        padding-left: 26px;
+        padding-right: 26px;
     }
 }

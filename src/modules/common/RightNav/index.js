@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import styled from 'styled-components';
 
 const Ul = styled.ul`
@@ -17,23 +18,51 @@ const Ul = styled.ul`
     right: 0;
     height: 100vh;
     width: 250px;
+    text-decoration: none
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
     li {
       color: #fff;
     }
+    a {
+    color: #FFFFFF
+    text-decoration: none;
   }
 `;
 
 const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
-      <li>Об инициативе EL ÚMITI</li>
-      <li>Об Академии Елбасы</li>
-      <li>Педагогам</li>
-      <li>Родителям</li>
-      <li>Молодежь 10-29 лет</li>
-      <li>7170</li>
+      <li>
+        <Link to="/about-project">
+          Об инициативе EL ÚMITI
+        </Link>
+      </li>
+      <li>
+        <Link to="/about-academy">
+          Об Академии Елбасы
+        </Link>
+      </li>
+      <li>
+        <Link to="/educators">
+          Педагогам
+        </Link>
+      </li>
+      <li>
+        <Link to="/parents">
+          Родителям
+        </Link>
+      </li>
+      <li>
+        <Link to="/young">
+          Молодежь 10-29 лет
+        </Link>
+      </li>
+      <li>
+        <Link>
+          7170
+        </Link>
+      </li>
     </Ul>
   )
 }

@@ -59,8 +59,9 @@ const Header = () => {
         </div>
       </div>
       <div className="mobile_container">
-        <img src={mobileheaderLogo} alt="mobile-header"/>
-        <Burger />
+        <Link to="/">
+          <img src={mobileheaderLogo} alt="mobile-header"/>
+        </Link>
       </div>
     </div>
   );
