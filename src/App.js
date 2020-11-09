@@ -1,24 +1,32 @@
-import logo from './logo.svg';
+import React, { lazy, Suspense } from 'react';
+import { Switch, Route, useLocation } from 'react-router-dom';
+import Layout from "./modules/common/Layout";
 import './App.css';
 
+const MainPage = lazy(() => import('./modules/pages/MainPage'));
+const AboutElUmiti = lazy(() => import('./modules/pages/AboutElUmiti'));
+const AboutAcademy = lazy(() => import('./modules/pages/AboutAcademy'));
+const Educators = lazy(() => import('./modules/pages/Educators'));
+const Parents = lazy(() => import('./modules/pages/Parents'));
+const Young = lazy(() => import('./modules/pages/Young'));
+
 function App() {
+  let location = useLocation();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Layout variant={location.pathname === '/'}>
+        <Switch>
+          <Suspense fallback={<div>Loading...</div>}>
+            <Route component={MainPage} exact path='/' />
+            <Route component={AboutElUmiti} exact path='/about-project' />
+            <Route component={AboutAcademy} exact path='/about-academy' />
+            <Route component={Educators} exact path='/educators' />
+            <Route component={Parents} exact path='/parents' />
+            <Route component={Young} exact path='/young' />
+          </Suspense>
+        </Switch>
+      </Layout>
+    </>
   );
 }
 

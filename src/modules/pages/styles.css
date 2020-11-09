@@ -1,0 +1,251 @@
+.container {
+    position: relative;
+    padding-bottom: 160px;
+}
+
+.page_title {
+    color: #13547A;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 56px;
+    line-height: 66px;
+    letter-spacing: 0.135em;
+    font-variant: small-caps;
+    padding-top: 60px;
+    padding-bottom: 24px;
+}
+
+.page_content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #333333;
+    padding-bottom: 30px;
+}
+
+.page_quotes {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #333333;
+    padding-bottom: 30px;
+}
+
+.page {
+    z-index: 11;
+}
+
+.bg {
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    padding-left: 850px;
+    z-index: 1;
+    opacity: 10%;
+}
+
+.page_content-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.135em;
+    text-transform: uppercase;
+    color: #333333;
+    padding-bottom: 8px;
+}
+
+.page_content-title_projects {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.135em;
+    text-transform: uppercase;
+    color: #333333;
+    padding-bottom: 8px;
+    padding-top: 30px;
+}
+
+.page_content_list {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #333333;
+    padding-bottom: 8px;
+}
+
+.page_content_list:last-child {
+    padding-bottom: 0;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: auto 463px;
+    grid-gap: 16px;
+}
+
+.foundation-logo {
+    padding-top: 40px;
+    padding-left: 80px;
+}
+
+.header_info {
+    display: flex;
+    align-items: center;
+}
+
+.phone_number {
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+    font-weight: 500;
+    padding-left: 11px;
+}
+
+.eye_logo {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.header_languages {
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.main_page {
+    background: #13547A;
+    min-height: 100vh;
+    max-width: 1440px;
+}
+
+.main_page_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header_info_block {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-right: 80px;
+}
+
+.el-umiti_logo {
+    padding-top: 60px;
+}
+
+.main_page_content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: #FFFFFF;
+    padding-top: 24px;
+    max-width: 881px;
+}
+
+.main_page_title {
+    font-weight: 900;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 64px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 30px;
+}
+
+.main_page_links {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    background: #FFFFFF;
+    justify-content: center;
+}
+
+.main_page_link {
+    padding-left: 43px;
+    font-size: 24px;
+    line-height: 32px;
+    color: #13547A;
+    text-decoration: none;
+
+}
+
+.main_page_link:first-child {
+    padding-left: 0;
+}
+
+.main_page_footer {
+    display: flex;
+    padding-top: 92px;
+    padding-bottom: 53px;
+    justify-content: center;
+}
+
+.main_page_project-logo {
+    display: block;
+    margin: 0 auto;
+    opacity: 40%;
+    padding-bottom: 24px;
+}
+
+.main_page_project_text {
+    font-size: 14px;
+    line-height: 20px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.main_page_footer_block {
+    max-width: 270px;
+    padding-right: 96px;
+}
+
+.main_page_footer_block:last-child {
+    padding-right: 0;
+}
+
+.main_page_footer_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.user_agreement {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    padding-right: 30px;
+}
+
+.faq {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.agreement {
+    display: flex;
+}

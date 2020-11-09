@@ -1,0 +1,39 @@
+.project {
+    padding: 24px 0 24px 24px;
+    max-width: 463px;
+}
+
+.project_logo {
+    padding-bottom: 24px;
+}
+
+.project_title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    color: #333333;
+    padding-bottom: 8px;
+}
+
+.project_content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #333333;
+    padding-bottom: 24px;
+}
+
+.project_link {
+    background: #13547A;
+    border-radius: 8px;
+    padding: 15px 77px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 42px;
+    letter-spacing: 0.16em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
