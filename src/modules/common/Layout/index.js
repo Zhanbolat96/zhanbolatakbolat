@@ -3,6 +3,7 @@ import Footer from "../Footer";
 import Header from "../Header";
 
 import "./styles.css";
+import Burger from "../BurgerMenu";
 
 const Layout = ({ children, variant }) => {
   if (variant) {

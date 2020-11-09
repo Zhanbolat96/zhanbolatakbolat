@@ -249,3 +249,58 @@
 .agreement {
     display: flex;
 }
+
+.main_page_header_mobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .bg {
+        display: none;
+    }
+    .main_page_mobile {
+        max-width: 380px;
+        background: #13547A;
+        min-height: 100vh;
+        padding-bottom: 200px;
+    }
+    .main_page_header_mobile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .main_page {
+        display: none;
+    }
+
+    .foundation-logo_mobile {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 18px;
+    }
+    .el-umiti_logo_mobile {
+        display: block;
+        margin: 0 auto;
+    }
+    .main_page_content {
+        max-width: 330px;
+        font-size: 13px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .main_page_title {
+        font-size: 24px;
+        line-height: 64px;
+        text-transform: uppercase;
+    }
+    .main_page_project-logo {
+        opacity: 80%;
+    }
+    .agreement {
+        text-align: center;
+        display: block;
+    }
+    .faq {
+        padding-bottom: 24px;
+    }
+}

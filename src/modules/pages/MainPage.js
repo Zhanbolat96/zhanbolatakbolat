@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import Burger from "../common/BurgerMenu";
 import FoundationLogo from '../../assets/icons/NNFoundation.svg';
 import ElUmitiLogo from '../../assets/icons/ElUmiti.svg';
 import phoneLogo from "../../assets/icons/phone.svg";
@@ -12,6 +13,13 @@ import InstagramLogo from "../../assets/icons/instagram.svg";
 import FacebookLogo from "../../assets/icons/facebook.svg";
 import YouTubeLogo from "../../assets/icons/youtube.svg";
 import VKLogo from "../../assets/icons/vk.svg";
+
+import MobileFoundationLogo from '../../assets/mobileIcons/NNFoundation.svg';
+import MobileElUmitiLogo from '../../assets/mobileIcons/ElumitiMobile.svg';
+import QabiletModileLogo from '../../assets/mobileIcons/QabiletMobileCard.svg';
+import BitgeOkyMobile from '../../assets/mobileIcons/BirgeOkyMobile.svg';
+import MynBalaMobile from '../../assets/mobileIcons/MynBalaMobile.svg';
+import ElbasyMedalMobile from '../../assets/mobileIcons/ElbasyMedalLogo.svg';
 import './styles.css';
 
 const MainPage = () => {
@@ -95,6 +103,34 @@ const MainPage = () => {
             <img className="footer_block-media" src={YouTubeLogo} alt="social-media-logo"/>
             <img className="footer_block-media" src={VKLogo} alt="social-media-logo"/>
           </div>
+        </div>
+      </div>
+
+      <div className="main_page_mobile">
+        <div className="main_page_header_mobile">
+          <img className="foundation-logo_mobile" src={MobileFoundationLogo} alt="foundation-logo" />
+          <Burger />
+        </div>
+        <img className="el-umiti_logo_mobile" src={MobileElUmitiLogo} alt="el-umiti"/>
+        <p className="main_page_content">
+          Инициатива El Úmiti - это единая система проектов, направленных на развитие будущего поколения
+          лидеров и профессионалов страны. Она позволяет получить качественные знания и открывает мир возможностей
+          для самореализации
+        </p>
+        <p className="main_page_title">Академия Елбасы</p>
+        <img className="main_page_project-logo" src={QabiletModileLogo} alt="project-logo"/>
+        <img className="main_page_project-logo" src={BitgeOkyMobile} alt="project-logo"/>
+        <img className="main_page_project-logo" src={MynBalaMobile} alt="project-logo"/>
+        <img className="main_page_project-logo" src={ElbasyMedalMobile} alt="project-logo"/>
+        <div className="agreement">
+          <p className="user_agreement">Пользовательское соглашение</p>
+          <p className="faq">FAQ</p>
+        </div>
+        <div className="footer_block-item_contacts">
+          <img className="footer_block-media" src={InstagramLogo} alt="social-media-logo"/>
+          <img className="footer_block-media" src={FacebookLogo} alt="social-media-logo"/>
+          <img className="footer_block-media" src={YouTubeLogo} alt="social-media-logo"/>
+          <img className="footer_block-media" src={VKLogo} alt="social-media-logo"/>
         </div>
       </div>
     </>

@@ -6,6 +6,21 @@
     align-items: center;
 }
 
+@media (max-width: 768px) {
+    .header {
+        display: none;
+    }
+
+    .mobile_container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 19px;
+        background: #13547A;
+        min-width: 100vh;
+    }
+}
+
 .header_links {
     display: flex;
 }
