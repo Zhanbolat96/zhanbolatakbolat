@@ -41,7 +41,7 @@
     position: absolute;
     top: 60px;
     bottom: 0;
-    padding-left: 850px;
+    margin-left: 850px;
     z-index: 1;
     opacity: 10%;
 }
@@ -162,12 +162,12 @@
     color: #FFFFFF;
     text-align: center;
     padding-top: 12px;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }
 
 .main_page_links {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     display: flex;
     background: #FFFFFF;
     justify-content: center;
@@ -188,8 +188,8 @@
 
 .main_page_footer {
     display: flex;
-    padding-top: 92px;
-    padding-bottom: 53px;
+    padding-top: 50px;
+    padding-bottom: 52px;
     justify-content: center;
 }
 
@@ -267,6 +267,7 @@
         background: #13547A;
         min-height: 100vh;
         padding-bottom: 200px;
+        display: block;
     }
     .main_page_header_mobile {
         display: flex;
