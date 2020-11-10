@@ -121,7 +121,7 @@
 .main_page {
     background: #13547A;
     min-height: 100vh;
-    max-width: 1440px;
+    min-width: 100vh;
 }
 
 .main_page_header {

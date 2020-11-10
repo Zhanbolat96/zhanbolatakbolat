@@ -51,8 +51,6 @@
     color: #FFFFFF;
     padding-bottom: 16px;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .footer_block-item_contacts:last-child {
